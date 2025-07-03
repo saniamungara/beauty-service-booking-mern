@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+.header {
+    background-color: #f0f0f0;
+    padding: 10px 0;
+}
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .logo {
+    font-family: "Dancing Script", cursive, Arial, sans-serif !important;
+    font-size: 28px !important;
+    font-weight: bold !important;
+    color: #FF69B4 !important;
+    margin-left: 0;
+}
+.header .nav {
+    display: flex;
+    justify-content: space-evenly !important;
+    width: 100%;
+}
+.header .nav a,
+.header .nav a[href="#"][onClick] {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    padding: 0 !important;
+    border: none !important;
+    background: none !important;
+    font-size: 1rem !important;
+    font-weight: normal !important;
+    font-family: inherit, Arial, sans-serif !important;
+    cursor: pointer !important;
+}
+.header .nav a:hover {
+    color: #e91e63;
+}
+.services-dropdown {
+  position: relative;
+}
+.services-dropdown button {
+  background: none;
+  border: none;
+  color: #333;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: normal;
+  font-family: inherit;
+  padding: 0;
+  margin-left: 20px;
+}
+.services-dropdown-content {
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  border-radius: 4px;
+}
+.services-dropdown-content a {
+  color: black;
+  padding: 10px 16px;
+  text-decoration: none;
+  display: block;
+  margin: 0;
+}
+.services-dropdown-content a:hover {
+  background-color: #e0e0e0;
+}
+
+

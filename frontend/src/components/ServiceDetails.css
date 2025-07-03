@@ -1,0 +1,59 @@
+.service-details-container {
+    width: 100vw; 
+    height: 100vh; 
+    padding: 20px;
+    max-width: none; 
+    margin: 0; 
+    font-family: sans-serif;
+    line-height: 1.6;
+    box-sizing: border-box;
+}
+.service-details-container h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.service-details-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+.service-details-container li {
+    margin-bottom: 10px;
+}
+.service-details-container strong {
+    font-weight: bold;
+}
+.service-details-container .booking-info {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #555;
+}
+.service-details-container .back-link {
+    display: inline-block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #007bff;
+}
+.service-details-container ul li {
+    padding: 5px 0;
+}
+.service-details-container .booking-info a {
+    color: #007bff;
+    text-decoration: none;
+}
+.service-details-container .booking-info a:hover {
+    text-decoration: underline;
+}
+.service-details-container ul {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+}
+@media (max-width: 600px) {
+    .service-details-container {
+        padding: 10px;
+        max-width: 100%; 
+    }
+    .service-details-container h1 {
+        font-size: 1.5em; 
+    }
+}
